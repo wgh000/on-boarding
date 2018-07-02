@@ -1,0 +1,26 @@
+{
+    "name": "wgh000/on-boarding",
+    "description": "Checking if a user can be safely registered.",
+    "keywords": ["on boarding"],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Simone Cabrino",
+            "email": "cabrinosimone@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1",
+        "ptachoire/file-binary-search": "dev-master"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wgh000\\onBoarding\\": "src/"
+        }
+    }
+}
