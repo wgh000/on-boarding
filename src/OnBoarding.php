@@ -47,14 +47,14 @@ class OnBoarding
             return true;
         }
 
+        if ($this->allSameCountry() && !$this->isRussia() && !$this->someInHighRisk()) {
+            return true;
+        }
+
         if ($this->allSameCountry() && $this->isRussia()) {
             if ($this->nameFound()) {
                 return false;
             }
-            return true;
-        }
-
-        if ($this->allSameCountry() && !$this->someInHighRisk()) {
             return true;
         }
 
