@@ -1,4 +1,4 @@
 On Boarding Checker
 =========================
 
-(description to be added)
+Check the `tests/` folder to see how it is working.
